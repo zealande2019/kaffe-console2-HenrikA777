@@ -25,6 +25,11 @@ namespace KaffeConsoleAppNetCore
             return 160;
         }
 
+        public override string Navn()
+        {
+            return "FlatWhite";
+        }
+
         public override string Styrke()
         {
             return "Mild";

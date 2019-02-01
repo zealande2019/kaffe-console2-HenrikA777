@@ -33,6 +33,7 @@ namespace kaffe
         /// </summary>
         public int Rabat { get; set; }
 
+        public abstract string Navn();
 
 
         /// <summary>

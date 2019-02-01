@@ -25,5 +25,10 @@ namespace kaffe
         {
             return 25;
         }
+
+        public override string Navn()
+        {
+            return "Cortado";
+        }
     }
 }

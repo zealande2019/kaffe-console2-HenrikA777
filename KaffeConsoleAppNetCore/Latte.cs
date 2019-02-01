@@ -22,11 +22,9 @@ namespace kaffe
             return 40;
         }
 
-        public override string Styrke()
+        public override string Navn()
         {
-            return base.Styrke();
+            return "Latte";
         }
-
-        
     }
 }
