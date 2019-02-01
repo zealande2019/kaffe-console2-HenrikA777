@@ -13,7 +13,7 @@ namespace KaffeConsoleAppNetCore
             List<Kaffe> kaffeList = new List<Kaffe>() {new Cortado(), new FlatWhite(), new Latte(), new SortKaffe()};
             foreach (var kaffe in kaffeList)
             {
-                Console.WriteLine($"Navn: {kaffe.ToString()}    Styrke: {kaffe.Styrke()}    Pris: {kaffe.Pris()}kr. Rabat: {kaffe.Rabat}%");
+                Console.WriteLine($"Navn: {kaffe.ToString()}    Styrke: {kaffe.Styrke()}    Pris: {kaffe.Pris()}kr.     Rabat: {kaffe.Rabat}%");
             }
 
 
